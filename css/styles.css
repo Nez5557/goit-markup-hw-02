@@ -29,7 +29,6 @@ ul {
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  max-width: 1600px;
   margin: auto;
 }
 .link {
@@ -84,7 +83,7 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   size: 14px;
-  line-height: 2.93;
+  line-height: 1.93;
   letter-spacing: 2%;
 }
 .hero {
@@ -153,8 +152,8 @@ body {
   size: 14px;
   line-height: 1.71;
 }
-.link-current-2,
-.social-links-2 {
+.link-current-name,
+.social-links-name {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -167,7 +166,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 .container {
-  background-color: var(--primary-background-color);
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -183,7 +181,7 @@ body {
   line-height: 2;
   letter-spacing: 6%;
 }
-.description-2 {
+.description-name {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 400;
