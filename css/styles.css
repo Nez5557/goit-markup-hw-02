@@ -8,19 +8,39 @@ a {
 ul {
   list-style: none;
 }
+/* Цвет основного текста #757575; */
+/* Вторичный цвет текста #212121; */
+/* Белый #FFFFFF; */
+/* Акцент #2196F3; */
+/* Контакты в подвале 255,255,255,0,6; */
+/* Цвет фона #FFFFFF */
+/* Цвет фона команды #F5F4FA; */
+/* Цвет фона подвала #2F303A */
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --white-color: #ffffff;
-  --primary-backgrounde-color: #2f303a;
-  --secondary-backgrounde-color: #f5f4fa;
+  --white-color: #fff;
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
   --black-color: #000000;
 }
-.link {
-  color: var(--title-text-color);
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  max-width: 1600px;
+  margin: auto;
 }
-.site-nav a:hover,
+.link {
+  color: var (--title-text-color);
+}
+.site-nav .nav-link.current {
+  color: var(--accent-color);
+}
+.site-nav a:hover {
+  color: #212121;
+}
 .site-nav a:focus {
   color: var(--accent-color);
 }
@@ -68,8 +88,8 @@ ul {
   letter-spacing: 2%;
 }
 .hero {
-  background-color: var (--primary-backgrounde-color);
-  color: var (--white-color);
+  background-color: #2f303a;
+  color: #ffffff;
   font-family: Roboto, sans-serif;
   font-weight: 900;
   line-height: 1.36;
@@ -80,7 +100,7 @@ ul {
 }
 .order-service {
   background-color: var(--accent-color);
-  color: var (--white-color);
+  color: #ffffff;
   font-family: Roboto, sans-serif;
   font-weight: 700;
   line-height: 1.88;
@@ -99,7 +119,7 @@ ul {
   line-height: 2.56;
 }
 .job-description {
-  color: var (--primary-text-color);
+  color: #757575;
   line-height: 1.72;
 }
 .description {
@@ -120,14 +140,14 @@ ul {
   font-weight: 500;
 }
 .profession {
-  color: var (--primary-text-color);
+  color: #757575;
   font-weight: 400;
 }
 .basement {
-  background-color: var (--primary-backgrounde-color);
+  background-color: #2f303a;
 }
 .address {
-  color: var (--white-color);
+  color: #ffffff;
   font-family: Roboto, sans-serif;
   font-weight: 400;
   size: 14px;
@@ -147,8 +167,8 @@ ul {
   font-family: Roboto, sans-serif;
 }
 .container {
-  background-color: var (--secondary-backgrounde-color);
-  color: var (--title-text-color);
+  background-color: #2f303a;
+  color: #212121;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   size: 16px;
