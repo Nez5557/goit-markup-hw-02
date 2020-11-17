@@ -54,45 +54,41 @@ body {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  size: 26px;
+  font-size: 26px;
   line-height: 1.19;
 }
 .logo-continuation {
   color: var(--black-color);
   font-family: Oleo script, sans-serif;
   font-weight: 700;
-  size: 26px;
+  font-size: 26px;
   line-height: 1.19;
 }
-.link {
-  color: var(--title-text-color);
-  font-family: Roboto, sans-serif;
+.site-nav {
   font-weight: 500;
-  size: 14px;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
 }
-.link-current {
-  color: var(--accent-color);
-  font-family: Roboto, sans-serif;
+.link {
+  color: var(--title-text-color);
   font-weight: 500;
-  size: 14px;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
 }
 .social-links {
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
   font-weight: 500;
-  size: 14px;
-  line-height: 1.93;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 2%;
 }
 .hero {
   background-color: var(--primary-background-color);
   color: var(--white-color);
-  font-family: Roboto, sans-serif;
   font-weight: 900;
+  size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
@@ -104,6 +100,7 @@ body {
   color: var(--white-color);
   font-family: Roboto, sans-serif;
   font-weight: 700;
+  font-size: 16px;
   line-height: 1.88;
   box-align: center;
   text-align: center;
@@ -117,24 +114,24 @@ body {
 .our-work {
   color: var(--title-text-color);
   font-weight: 700;
-  line-height: 2.56;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .job-description {
   color: var(--primary-text-color);
-  line-height: 1.72;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .description {
   color: var(--title-text-color);
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   size: 36px;
-  line-height: 2.21;
+  line-height: 1.17;
 }
 .our-piople {
-  font-family: Roboto, sans-serif;
   box-align: center;
-  size: 16px;
-  line-height: 4.17;
+  font-size: 16px;
+  line-height: 1.19;
 }
 .our-team {
   color: var(--title-text-color);
@@ -149,17 +146,15 @@ body {
 }
 .address {
   color: var(--white-color);
-  font-family: Roboto, sans-serif;
   font-weight: 400;
-  size: 14px;
+  font-size: 14px;
   line-height: 1.71;
 }
 .link-current-name,
 .social-links-name {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto, sans-serif;
   font-weight: 400;
-  size: 14px;
+  font-size: 14px;
   line-height: 1.71;
 }
 .all button:active {
@@ -167,11 +162,18 @@ body {
   color: var (--white-color);
   font-family: Roboto, sans-serif;
 }
+.all {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 3%;
+}
 .container {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  size: 16px;
+  font-size: 16px;
   line-height: 1.63;
   letter-spacing: 3%;
 }
@@ -179,7 +181,7 @@ body {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 700;
-  size: 18px;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 6%;
 }
@@ -187,7 +189,7 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  size: 16px;
-  line-height: 2;
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 3%;
 }
