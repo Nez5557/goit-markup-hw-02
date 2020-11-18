@@ -157,19 +157,19 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
-.all-button button:active {
+.button-first button:active {
   background-color: var(--accent-color);
   color: var (--white-color);
   font-family: Roboto, sans-serif;
 }
-.all-button {
+.button-first {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 3%;
 }
-.container-button {
+.button {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
