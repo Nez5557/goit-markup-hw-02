@@ -167,14 +167,17 @@ body {
   line-height: 1.71;
 }
 .button-list button:hover {
+  font-family: Roboto, sans-serif;
   color: var(--white-color);
   background-color: var(--accent-color);
 }
 .button-list button:focus {
+  font-family: Roboto, sans-serif;
   color: var(--white-color);
   background-color: var(--accent-color);
 }
 .button-list button {
+  font-family: Roboto, sans-serif;
   background-color: var(--button-color);
   color: var(--title-text-color);
   font-weight: 500;
