@@ -39,7 +39,7 @@ body {
   color: var(--accent-color);
 }
 .site-nav a:hover {
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
 .site-nav a:focus {
   color: var(--accent-color);
@@ -109,8 +109,7 @@ body {
   border-radius: 4px;
 }
 .section-work {
-  font-family: Roboto, sans-serif;
-  size: 14px;
+  font-size: 14px;
 }
 .our-work {
   color: var(--title-text-color);
@@ -156,7 +155,6 @@ body {
   color: var(--white-color);
   font-weight: 400;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -165,22 +163,18 @@ body {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 .button-list button:hover {
   color: var(--white-color);
   background-color: var(--accent-color);
-  font-family: Roboto, sans-serif;
 }
 .button-list button:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
-  font-family: Roboto, sans-serif;
 }
 .button-list button {
-  font-family: Roboto, sans-serif;
   background-color: var(--button-color);
   color: var(--title-text-color);
   font-weight: 500;
@@ -190,7 +184,6 @@ body {
 }
 .name-title {
   color: var(--title-text-color);
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -198,7 +191,6 @@ body {
 }
 .description-name {
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
